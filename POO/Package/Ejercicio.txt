@@ -1,0 +1,15 @@
+Ejercicio 1: Construir un programa que calcule el area de un cuadrilatero dada
+la longitud de sus dos lados. Los valores de la longitud deberan introducirse 
+por linea en ordenes. Si es un cuadrado, solo se proporcionara la longitud de 
+uno de los lados al constructor.
+
+Clase cuadrilatero:
+Atributos:
+    lado1 : float
+    lado2 : float
+
+Metodos:
+    Cuadrilatero(float lado1, float lado2)
+    Cuadrilatero(float lado1)
+    getPermietro(): float
+    getArea(): float
