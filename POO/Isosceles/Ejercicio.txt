@@ -1,0 +1,13 @@
+Diseñar un programa para trabajar con triangulos isosceles (Dos lados iguales y la base). definir atributos necesarios que se requiren (Base y un lado),
+ademas proporcione metodos de consulta, metodo constructor y metodo para calcular perimetro y area del triangulo. Despues implementar un metodo a partir de un arreglo
+de triangulos que devuelva el area del triangulo con mayor superficie.
+
+Clase Triangulo
+Atributos:
+    lado : double
+    base : double
+Metodos:
+    Triangulo(double lado, double base)
+    getPerimetro() : double
+    getArea() : double
+    getMayorSuperficie() : double
