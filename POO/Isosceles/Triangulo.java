@@ -4,9 +4,9 @@ public class Triangulo {
     private double lado;
     private double base;
 
-    public Triangulo(double _lado, double _base) {
-        lado = _lado;
-        base = _base;
+    public Triangulo(double lado, double base) {
+        this.lado = lado;
+        this.base = base;
     }
 
     public double getPerimetro(){
