@@ -6,10 +6,10 @@ public class Automovil {
     private String modelo;
     private float precio;
 
-    public Automovil(String _marca, String _modelo, float _precio) {
-        marca = _marca;
-        modelo = _modelo;
-        precio = _precio;
+    public Automovil(String marca, String modelo, float precio) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.precio = precio;
     }
 
     public float getPrecio(){
