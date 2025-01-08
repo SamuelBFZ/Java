@@ -1,0 +1,32 @@
+Hacer un programa para calcular el area de Poligonos (Triangulos y Rectangulos) el programa debe ser capaz
+de almacenar en un arreglo N triangulos y rectangulos, y al final mostrar el area y los datos de cada uno.
+Para ello tendra lo siguiente:
+
+-Super clase llamada Poligono.
+-Sub clase llamada Rectangulo.
+-Sub clase llamada Triangulo.
+
+Diagrama UML: //se obvian constructores y getters
+Clase Poligono:
+Atributos:
+    # nLados : int
+Metodos:
+    +toString() : String
+    +area() : double        //Abstract
+
+Clase Rectangulo:
+Atributos:
+    -lado1 : double
+    -lado2 : double
+Metodos:
+    + toString() : String
+    + area() : double
+
+Clase Triangulo:
+Atributos:
+    -lado1 : double
+    -lado2 : double
+    -lado3 : double
+Metodos:
+    + toString() : String
+    + area() : double
